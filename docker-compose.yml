@@ -6,6 +6,8 @@ services:
       - 8888:8888
     volumes:
       - base_volume:/project
+    environment:
+      JUPYTER_TOKEN: "secret_here"
 volumes:
   base_volume:
     external: true
