@@ -11,7 +11,8 @@ RUN conda install \
     matplotlib \
     jupyterlab \
     scikit-learn \
-    seaborn  
+    seaborn \
+    plotly
 
 COPY . /app/
 
